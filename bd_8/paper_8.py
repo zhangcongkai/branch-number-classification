@@ -251,9 +251,9 @@ def evaluate_model(model, X_test, y_test_onehot, y_test_int, history=None):
     print("MODEL EVALUATION METRICS")
     print("=" * 60)
 
-    # 获取训练和验证的最终指标
+   
     if history is not None:
-        # 获取最佳epoch（早停恢复的权重对应的epoch）
+        
         best_epoch = np.argmax(history.history['val_prc'])
 
         print(f"\n{'=' * 30} Training Metrics {'=' * 30}")
@@ -267,7 +267,7 @@ def evaluate_model(model, X_test, y_test_onehot, y_test_int, history=None):
         print(f"Validation Loss (final epoch): {history.history['val_loss'][-1]:.4f}")
         print(f"Validation Loss (best epoch): {history.history['val_loss'][best_epoch]:.4f}")
 
-        # 保存训练和验证指标
+       
         train_val_metrics = {
             'training_accuracy_final': history.history['accuracy'][-1],
             'training_accuracy_best': history.history['accuracy'][best_epoch],
@@ -282,7 +282,7 @@ def evaluate_model(model, X_test, y_test_onehot, y_test_int, history=None):
         train_val_metrics = {}
 
     print(f"\n{'=' * 30} Test Set Metrics {'=' * 30}")
-    # 模型评估
+  
     results = model.evaluate(X_test, y_test_onehot, verbose=0)
 
     metrics = {
@@ -301,22 +301,21 @@ def evaluate_model(model, X_test, y_test_onehot, y_test_int, history=None):
     print(f"Test AUC (ROC): {metrics['test_auc']:.4f}")
     print(f"Test PRC (AUC-PR): {metrics['test_prc']:.4f}")
 
-    # 计算F1 Score
+  
     f1 = 2 * (metrics['test_precision'] * metrics['test_recall']) / (
                 metrics['test_precision'] + metrics['test_recall'] + 1e-7)
     metrics['test_f1'] = f1
     print(f"Test F1 Score: {f1:.4f}")
 
-    # 预测
+  
     y_pred = model.predict(X_test, verbose=0)
     y_pred_classes = np.argmax(y_pred, axis=1)
 
-    # 计算每个类别的指标
     precision_per_class, recall_per_class, f1_per_class, _ = precision_recall_fscore_support(
         y_test_int, y_pred_classes, average=None
     )
 
-    # 计算宏平均和加权平均
+  
     precision_macro, recall_macro, f1_macro, _ = precision_recall_fscore_support(
         y_test_int, y_pred_classes, average='macro'
     )
@@ -332,12 +331,12 @@ def evaluate_model(model, X_test, y_test_onehot, y_test_int, history=None):
     print(f"\nMacro Average: Precision={precision_macro:.4f}, Recall={recall_macro:.4f}, F1={f1_macro:.4f}")
     print(f"Weighted Average: Precision={precision_weighted:.4f}, Recall={recall_weighted:.4f}, F1={f1_weighted:.4f}")
 
-    # 分类报告
+   
     print(f"\n{'=' * 30} Classification Report {'=' * 30}")
     print(classification_report(y_test_int, y_pred_classes,
                                 target_names=['Branch 2', 'Branch 3', 'Branch 4', 'Branch 5']))
 
-    # 混淆矩阵
+  
     cm = confusion_matrix(y_test_int, y_pred_classes)
     plt.figure(figsize=(8, 6))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
@@ -349,7 +348,7 @@ def evaluate_model(model, X_test, y_test_onehot, y_test_int, history=None):
     plt.savefig('confusion_matrix_branch.png', dpi=300)
     plt.show()
 
-    # 合并所有指标
+   
     all_metrics = {**train_val_metrics, **metrics}
     all_metrics.update({
         'precision_macro': precision_macro,
@@ -413,7 +412,7 @@ metrics = evaluate_model(model, X_test, y_test_onehot, y_test_int, history)
 plot_training_history(history)
 
 # ========== Step 11: Save Metrics to CSV ==========
-# 创建指标汇总表
+
 metrics_summary = {
     'Metric': [
         'Training Accuracy (final epoch)',
@@ -467,7 +466,7 @@ df_metrics = pd.DataFrame(metrics_summary)
 df_metrics.to_csv('model_metrics_summary.csv', index=False)
 print(f"\nMetrics summary saved to 'model_metrics_summary.csv'")
 
-# 打印所有指标的汇总表
+
 print(f"\n{'=' * 60}")
 print("ALL METRICS SUMMARY")
 print('=' * 60)
