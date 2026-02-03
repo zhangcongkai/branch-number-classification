@@ -1,0 +1,180 @@
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0x2A28 );
+ASSERT( x112 = 0x448D );
+ASSERT( x109 = 0x8208 );
+ASSERT( x115 = 0x50A6 );
+ASSERT( x101 = 0x000E );
+ASSERT( x104 = 0x800B );
+ASSERT( x102 = 0x8830 );
+ASSERT( x100 = 0x8107 );
+ASSERT( x110 = 0x001A );
+ASSERT( x114 = 0xB5F8 );
+ASSERT( x103 = 0x2840 );
+ASSERT( x111 = 0x6BCA );
+ASSERT( x113 = 0x9FAB );
+ASSERT( x105 = 0x2868 );
+ASSERT( x107 = 0x000D );
+ASSERT( x108 = 0x007D );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0x92E8 );
+ASSERT( x112 = 0xD856 );
+ASSERT( x109 = 0x0218 );
+ASSERT( x115 = 0x89D1 );
+ASSERT( x101 = 0x0CA6 );
+ASSERT( x104 = 0x0503 );
+ASSERT( x102 = 0xC703 );
+ASSERT( x100 = 0x0627 );
+ASSERT( x110 = 0x3836 );
+ASSERT( x114 = 0x3F99 );
+ASSERT( x103 = 0xD000 );
+ASSERT( x111 = 0x4585 );
+ASSERT( x113 = 0xFD0A );
+ASSERT( x105 = 0x2443 );
+ASSERT( x107 = 0x28A5 );
+ASSERT( x108 = 0x086C );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0x092C );
+ASSERT( x112 = 0xBA7C );
+ASSERT( x109 = 0xC808 );
+ASSERT( x115 = 0x228B );
+ASSERT( x101 = 0x000E );
+ASSERT( x104 = 0x000B );
+ASSERT( x102 = 0x590E );
+ASSERT( x100 = 0x0007 );
+ASSERT( x110 = 0x3110 );
+ASSERT( x114 = 0x85D5 );
+ASSERT( x103 = 0x5800 );
+ASSERT( x111 = 0x8E29 );
+ASSERT( x113 = 0x9DC8 );
+ASSERT( x105 = 0x4022 );
+ASSERT( x107 = 0x000D );
+ASSERT( x108 = 0x8127 );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0xA854 );
+ASSERT( x112 = 0x610B );
+ASSERT( x109 = 0xACC4 );
+ASSERT( x115 = 0x51B2 );
+ASSERT( x101 = 0x000E );
+ASSERT( x104 = 0x0403 );
+ASSERT( x102 = 0x0025 );
+ASSERT( x100 = 0x0037 );
+ASSERT( x110 = 0x801A );
+ASSERT( x114 = 0x4E48 );
+ASSERT( x103 = 0xA820 );
+ASSERT( x111 = 0xDF16 );
+ASSERT( x113 = 0xDA83 );
+ASSERT( x105 = 0x0058 );
+ASSERT( x107 = 0x001D );
+ASSERT( x108 = 0x00A8 );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0x3010 );
+ASSERT( x112 = 0xFFDE );
+ASSERT( x109 = 0x78FC );
+ASSERT( x115 = 0xB0FC );
+ASSERT( x101 = 0x000E );
+ASSERT( x104 = 0x000B );
+ASSERT( x102 = 0xB69F );
+ASSERT( x100 = 0x0007 );
+ASSERT( x110 = 0x921A );
+ASSERT( x114 = 0x293C );
+ASSERT( x103 = 0xF000 );
+ASSERT( x111 = 0x9D32 );
+ASSERT( x113 = 0xE3A7 );
+ASSERT( x105 = 0x5010 );
+ASSERT( x107 = 0x620D );
+ASSERT( x108 = 0x3115 );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0x907C );
+ASSERT( x112 = 0xBBAA );
+ASSERT( x109 = 0x820C );
+ASSERT( x115 = 0x70D8 );
+ASSERT( x101 = 0x040E );
+ASSERT( x104 = 0x0C0B );
+ASSERT( x102 = 0x9C2C );
+ASSERT( x100 = 0x0007 );
+ASSERT( x110 = 0x801A );
+ASSERT( x114 = 0xCFCF );
+ASSERT( x103 = 0x9800 );
+ASSERT( x111 = 0xA4D8 );
+ASSERT( x113 = 0xDDF0 );
+ASSERT( x105 = 0x107E );
+ASSERT( x107 = 0x880D );
+ASSERT( x108 = 0x0242 );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0xA844 );
+ASSERT( x112 = 0xDDE1 );
+ASSERT( x109 = 0x8294 );
+ASSERT( x115 = 0x0829 );
+ASSERT( x101 = 0x400E );
+ASSERT( x104 = 0x000B );
+ASSERT( x102 = 0xA860 );
+ASSERT( x100 = 0x0007 );
+ASSERT( x110 = 0x111B );
+ASSERT( x114 = 0xFE1C );
+ASSERT( x103 = 0xA800 );
+ASSERT( x111 = 0x9AB1 );
+ASSERT( x113 = 0xDFC8 );
+ASSERT( x105 = 0xE02A );
+ASSERT( x107 = 0x400D );
+ASSERT( x108 = 0x884C );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0x0E2C );
+ASSERT( x112 = 0xB877 );
+ASSERT( x109 = 0x0E67 );
+ASSERT( x115 = 0x0C6F );
+ASSERT( x101 = 0x919E );
+ASSERT( x104 = 0x000B );
+ASSERT( x102 = 0x0033 );
+ASSERT( x100 = 0x0007 );
+ASSERT( x110 = 0x011A );
+ASSERT( x114 = 0x4EEB );
+ASSERT( x103 = 0x7900 );
+ASSERT( x111 = 0xE2C2 );
+ASSERT( x113 = 0x4EBA );
+ASSERT( x105 = 0x0E22 );
+ASSERT( x107 = 0x000D );
+ASSERT( x108 = 0x00CB );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0x7965 );
+ASSERT( x112 = 0x3084 );
+ASSERT( x109 = 0x86D6 );
+ASSERT( x115 = 0xC21B );
+ASSERT( x101 = 0x0406 );
+ASSERT( x104 = 0x000B );
+ASSERT( x102 = 0x0007 );
+ASSERT( x100 = 0x0547 );
+ASSERT( x110 = 0x8454 );
+ASSERT( x114 = 0xB35F );
+ASSERT( x103 = 0xF800 );
+ASSERT( x111 = 0x66B8 );
+ASSERT( x113 = 0x2E78 );
+ASSERT( x105 = 0xF823 );
+ASSERT( x107 = 0x000D );
+ASSERT( x108 = 0xF4BF );
+Invalid.
+zhang@zhang-virtual-machine:~/桌面$ stp 1.cvc
+ASSERT( x106 = 0x0818 );
+ASSERT( x112 = 0xE3B5 );
+ASSERT( x109 = 0x51CC );
+ASSERT( x115 = 0x979F );
+ASSERT( x101 = 0x000E );
+ASSERT( x104 = 0x000B );
+ASSERT( x102 = 0x0023 );
+ASSERT( x100 = 0x8807 );
+ASSERT( x110 = 0x351A );
+ASSERT( x114 = 0xAA38 );
+ASSERT( x103 = 0x5800 );
+ASSERT( x111 = 0xFF58 );
+ASSERT( x113 = 0x7FD0 );
+ASSERT( x105 = 0x0528 );
+ASSERT( x107 = 0x000D );
+ASSERT( x108 = 0x0540 );
+Invalid.
